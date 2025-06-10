@@ -3,7 +3,7 @@
     -seq genome.fa \
     -threads 128 \
     -w 2 -C -D 15000 -d 1000 -L 7000 -l 100 -p 20 -M 0.85 \
-    -size 1000000 -time 300 \
+    -time 6000 \
     1> LTR_FINDER_parallel.log \
     2> LTR_FINDER_parallel.err \
 
